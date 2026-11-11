@@ -1,6 +1,6 @@
 # strix-theme-lucifer
 
-A theme for Strix, outside the eight Roman gods: Lucifer under the foot of the archangel Michael. Two colours: red for Lucifer (`#984742`) fills buttons, progress and his disc; gold for Michael (`#c8a65d`) draws lines and letters (links, carets, focus) and his disc. The grounds are tinted faintly toward the red.
+A theme for Strix, outside the eight Roman gods: Lucifer, thrown down by the archangel Michael. Two colours: red for Lucifer (`#984742`) fills buttons, progress and his disc; gold for Michael (`#c8a65d`) draws lines and letters (links, carets, focus) and his disc. The grounds are tinted faintly toward the red.
 
 ![The wallpaper](themes/lucifer/wallpaper.jpg)
 
@@ -8,7 +8,7 @@ A theme for Strix, outside the eight Roman gods: Lucifer under the foot of the a
 
 ## Picture
 
-Pieter de Bailliu (I) after Guido Reni, The Archangel Michael Tramples Satan, Rome, 1623 to 1660, published by Giovanni Battista de' Rossi. Rijksmuseum RP-P-BI-486, public domain. The whole scene is set on a ground of ink and printed in the inks of the theme, with a gold disc around Michael's head and a red one around Lucifer's, by `tools/pack.py` of StrixUI.
+Jacob Neefs after Peter Paul Rubens, S. Michael, Antwerp, 1620 to 1680, published by Gilles Hendricx. Rijksmuseum RP-P-OB-23.930, public domain. Michael with the shield of God throws Lucifer out of heaven. Cropped to both of them and printed in the inks of the theme, like the plates of the gods, with a gold disc around Michael's head and a red one around Lucifer's, by `tools/pack.py` of StrixUI.
 
 ## Use it
 
