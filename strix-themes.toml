@@ -1,0 +1,4 @@
+# Marks this repository as Strix themes. Strix reads only this file and themes/.
+layout = 1
+name = "Lucifer"
+description = "The fallen light-bringer under the archangel's foot, in ember."

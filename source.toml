@@ -1,0 +1,15 @@
+# The recipe of this repository. tools/pack.py of StrixUI makes themes/ from it:
+#   python3 ../strixui/tools/pack.py .
+[[theme]]
+id = "lucifer"
+name = "Lucifer"
+description = "Ember, the last glow of the fallen light-bringer."
+accent = [0.52, 0.105, 27]
+
+[theme.plate]
+source = "rijks:Tgakd:3200"
+crop = [0.06, 0.50, 0.94]
+disc = [1740, 910, 235]
+caption = "The archangel Michael treads Lucifer down. Engraved by Pieter de Bailliu after Guido Reni"
+credit = "Pieter de Bailliu (I) after Guido Reni, The Archangel Michael Tramples Satan, Rome, 1623 to 1660, published by Giovanni Battista de' Rossi. Rijksmuseum RP-P-BI-486, public domain"
+licence = "public domain"

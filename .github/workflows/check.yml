@@ -1,0 +1,19 @@
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Layout, wallpapers and credits
+        run: python3 check.py
+      - name: Colours and contrast, with the theme engine of Strix
+        run: |
+          if [ -z "$(find themes -name theme.toml)" ]; then echo "no themes yet"; exit 0; fi
+          rustup update stable
+          cargo install --locked --git https://github.com/liviosysctl/StrixOS theme-engine
+          theme check themes
