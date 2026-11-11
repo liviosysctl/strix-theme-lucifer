@@ -1,6 +1,6 @@
 # strix-theme-lucifer
 
-A theme for Strix, outside the eight Roman gods: Lucifer, the fallen light-bringer under the archangel's foot. Ember as the accent (`#9c4f47` on `#0e0908`), the grounds tinted faintly toward it.
+A theme for Strix, outside the eight Roman gods: Lucifer under the foot of the archangel Michael. Two colours: red for Lucifer (`#984742`) fills buttons, progress and his disc; gold for Michael (`#c8a65d`) draws lines and letters (links, carets, focus) and his disc. The grounds are tinted faintly toward the red.
 
 ![The wallpaper](themes/lucifer/wallpaper.jpg)
 
@@ -8,7 +8,7 @@ A theme for Strix, outside the eight Roman gods: Lucifer, the fallen light-bring
 
 ## Picture
 
-Pieter de Bailliu (I) after Guido Reni, The Archangel Michael Tramples Satan, Rome, 1623 to 1660, published by Giovanni Battista de' Rossi. Rijksmuseum RP-P-BI-486, public domain. Cropped to Lucifer's head under Michael's foot and printed in two inks of the theme, with the ember disc, by `tools/pack.py` of StrixUI.
+Pieter de Bailliu (I) after Guido Reni, The Archangel Michael Tramples Satan, Rome, 1623 to 1660, published by Giovanni Battista de' Rossi. Rijksmuseum RP-P-BI-486, public domain. The whole scene is set on a ground of ink and printed in the inks of the theme, with a gold disc around Michael's head and a red one around Lucifer's, by `tools/pack.py` of StrixUI.
 
 ## Use it
 
@@ -24,7 +24,7 @@ Pieter de Bailliu (I) after Guido Reni, The Archangel Michael Tramples Satan, Ro
 
 ## Change it
 
-The theme is made from `source.toml`. Change the accent or the crop there, then:
+The theme is made from `source.toml`. Change the colours, the placement or the discs there, then:
 
 ```sh
 python3 ../strixui/tools/pack.py .    # ends with FAILS 0
