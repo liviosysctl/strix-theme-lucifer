@@ -9,7 +9,7 @@ Only the Python standard library. The colours are checked by the theme engine it
 import os, re, struct, sys, tomllib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-BUILT_IN = {'saturnus', 'janus', 'apollo', 'mars', 'vulcanus', 'neptunus', 'pluto', 'bacchus', 'neutral'}
+BUILT_IN = {'saturnus', 'janus', 'apollo', 'mars', 'vulcanus', 'neptunus', 'pluto', 'bacchus'}
 ID = re.compile(r'[a-z][a-z0-9]*(-[a-z0-9]+)*')
 THEME_FILES = {'theme.toml', 'wallpaper.jpg', 'wallpaper.toml'}
 LICENCES = {'public domain', 'CC0'}

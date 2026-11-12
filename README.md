@@ -12,15 +12,13 @@ Jacob Neefs after Peter Paul Rubens, S. Michael, Antwerp, 1620 to 1680, publishe
 
 ## Use it
 
-- Later, Settings › Themes in Strix: connect this repository by its URL.
-- Until then, in `machine.nix`, with a checkout of this repository next to it:
+```sh
+sudo strix-theme repos add liviosysctl/strix-theme-lucifer
+sudo strix-rebuild switch
+sudo strix-theme set lucifer
+```
 
-  ```nix
-  strix.theme.extraThemes.lucifer = ./strix-theme-lucifer/themes/lucifer;
-  strix.theme.default = "lucifer";    # optional: start with it
-  ```
-
-  Then `sudo strix-rebuild switch` and `sudo strix-theme set lucifer`.
+Every `strix-update` then brings the newest version of this repository.
 
 ## Change it
 
