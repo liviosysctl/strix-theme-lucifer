@@ -26,7 +26,9 @@ The theme is made from `source.toml`. Change the colours, the placement or the d
 
 ```sh
 python3 ../strixui/tools/pack.py .    # ends with FAILS 0
-python3 check.py
+theme repos check .                   # the theme engine of Strix, as CI runs it
 ```
+
+On Strix the engine is `strix-theme`; elsewhere `cargo install --git https://github.com/liviosysctl/StrixOS theme-engine` installs it as `theme`.
 
 The layout and the rules are those of [strix-theme-template](https://github.com/liviosysctl/strix-theme-template).

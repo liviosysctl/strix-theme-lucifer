@@ -4,16 +4,22 @@ on:
   push:
   pull_request:
 
+# The same rules Strix applies before it takes a commit of this repository, from its theme engine:
+# the layout, the wallpapers and their credits, the colours and their contrast. What a theme leaves
+# out comes from the default theme of Strix, as on the machine.
 jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Layout, wallpapers and credits
-        run: python3 check.py
-      - name: Colours and contrast, with the theme engine of Strix
+      - uses: actions/checkout@v7
+      - name: The theme engine of Strix
         run: |
-          if [ -z "$(find themes -name theme.toml)" ]; then echo "no themes yet"; exit 0; fi
           rustup update stable
           cargo install --locked --git https://github.com/liviosysctl/StrixOS theme-engine
-          theme check themes
+      - name: The themes of Strix itself, whose ids are taken and whose default fills in
+        run: git clone --depth 1 https://github.com/liviosysctl/StrixUI "$RUNNER_TEMP/strixui"
+      - name: Layout, picture, credits, colours and contrast
+        run: theme repos check .
+        env:
+          BUILTIN_THEMES: ${{ runner.temp }}/strixui/design-system/themes
+          DEFAULT_THEME: saturnus
