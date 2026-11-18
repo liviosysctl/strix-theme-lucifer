@@ -1,5 +1,5 @@
 # Lucifer. Two colours: ember red for Lucifer, gold for the archangel above him.
-# Made with tools/pack.py of StrixUI from source.toml. Change source.toml and build again.
+# Made with strixui pack from source.toml. Change source.toml and build again.
 format = 1
 name = "Lucifer"
 description = "Two colours: ember red for Lucifer, gold for the archangel above him."
