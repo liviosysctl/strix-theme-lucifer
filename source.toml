@@ -1,5 +1,5 @@
-# The recipe of this repository. strixui pack of StrixUI makes themes/ from it:
-#   cargo run -rq --manifest-path ../strixui/tools/Cargo.toml -- pack .
+# The recipe of this repository. strixui pack of strixui-v2 makes themes/ from it:
+#   cargo run -rq --manifest-path ../strixui-v2/tools/Cargo.toml -- pack .
 [[theme]]
 id = "lucifer"
 name = "Lucifer"
